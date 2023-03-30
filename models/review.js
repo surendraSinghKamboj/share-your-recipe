@@ -5,7 +5,15 @@ const review = new Schema({
         type: Number
     }, comment: {
         type: String
-    }
+    }, user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Users",
+        required: true
+    }, recipe: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Recipes",
+        required: true
+    },
 });
 
 
