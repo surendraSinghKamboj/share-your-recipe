@@ -6,6 +6,9 @@
 	"author": "Surendra Singh Kamboj",
 	"license": "MIT",
 	"type": "module",
+	"scripts": {
+		"dev": "nodemon server.js"
+	},
 	"dependencies": {
 		"bcrypt": "^5.1.0",
 		"dotenv": "^16.0.3",
