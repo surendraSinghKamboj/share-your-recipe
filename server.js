@@ -1,4 +1,4 @@
-import express from 'express'
+console.clear();
 import { app } from './app.js';
 import connectDb from './database/connectDB.js';
 
